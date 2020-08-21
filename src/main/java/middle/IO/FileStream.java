@@ -52,7 +52,7 @@ public class FileStream {
      **/
     public static void fileOutStream() {
         System.out.println("=============  fileOutStream  ===================");
-        File f = new File("/Users/bjsl/Documents/ideaTest/lolo.txt");
+        File f = new File("/Users/bjsl/Documents/ideaTest/binaryStream/lol.txt");
         System.out.println(f.exists());
     }
 }
