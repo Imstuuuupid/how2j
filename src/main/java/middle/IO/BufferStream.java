@@ -133,8 +133,7 @@ public class BufferStream {
     public static void exercise() {
         System.out.println("==============  exercise  ===============");
         System.out.println("annotation exist ? " + anno);
-        if(!non_anno.exists())
-        {
+        if (!non_anno.exists()) {
             non_anno.getParentFile().mkdirs();
             try {
                 non_anno.createNewFile();
