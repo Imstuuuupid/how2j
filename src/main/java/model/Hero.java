@@ -15,6 +15,13 @@ public class Hero {
 
     private Integer moveSpeed; //移动速度
 
+    public static String extP;
+
+    static {
+        System.out.println("init extP ");
+        extP = "aaaaaa";
+    }
+
     public void attack(Hero hero) {
         try {
             Thread.sleep(1000);
