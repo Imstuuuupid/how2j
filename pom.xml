@@ -23,6 +23,7 @@
     <modules>
         <module>web</module>
         <module>basic</module>
+        <module>101</module>
     </modules>
     <dependencies>
         <dependency>
