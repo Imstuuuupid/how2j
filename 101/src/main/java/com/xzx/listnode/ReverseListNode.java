@@ -26,8 +26,8 @@ public class ReverseListNode {
         if (head == null) {
             return null;
         }
-        ListNode cur = head;
         ListNode pre = null;
+        ListNode cur = head;
         while (cur != null) {
             ListNode curNext = cur.next;
             cur.next = pre;

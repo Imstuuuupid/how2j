@@ -23,8 +23,8 @@ public class ReveseBetween {
     }
 
     public static ListNode reverseBetween(ListNode head, int m, int n) {
-        ListNode dummyNode = new ListNode(-1);
-        dummyNode.next = head;
+        ListNode dmNode = new ListNode(-1);
+        dmNode.next = head;
         ListNode pre = head;
         for (int i = 1; i < m - 1; i++) {
             pre = pre.next;
@@ -37,6 +37,7 @@ public class ReveseBetween {
             curNext.next = pre.next;
             pre.next = curNext;
         }
+
         return head;
     }
 }
